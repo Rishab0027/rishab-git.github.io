@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#resume-section {
+    width: 90%;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#bach{
+    border-bottom: 2px solid #0056b3;
+}
+
+.intro-text {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: #333;
+    margin-top: 0;
+}
+
+.summary-content, .education-content, .experience-content {
+    margin-bottom: 20px;
+}
+
+.summary-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.summary-content ul li {
+    margin-bottom: 5px;
+}
+
+.degree, .job {
+    margin-bottom: 20px;
+}
+
+.degree p, .job p {
+    margin: 5px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}

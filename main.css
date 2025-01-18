@@ -1,0 +1,57 @@
+.main-content {
+    background-size: cover;
+    background-position: center;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #333;
+    margin-left: 80px;
+}
+
+.main-content::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-right: 60px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+#brand{
+    border-bottom: 2px solid #0056b3;
+
+}
+
+p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+p span {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}

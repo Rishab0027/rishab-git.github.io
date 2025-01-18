@@ -1,0 +1,81 @@
+.skills-section {
+    padding: 60px 20px;
+    margin-left: 80px;
+}
+
+.skills-section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.skills-section h2::after {
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #007BFF;
+    margin: 10px auto 0;
+}
+
+.skills-section p {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skill-bars {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-bar {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.skill-title {
+    position: absolute;
+    top: -30px; 
+    left: 0;
+    font-weight: bold;
+    color: #333;
+    z-index: 1;
+}
+
+.skill-progress {
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-progress::after {
+    content: '';
+    display: block;
+    height: 100%;
+    background-color: #007BFF;
+    border-radius: 10px;
+}
+
+.skill-progress[data-progress="80"]::after {
+    width: 80%;
+}
+
+.skill-progress[data-progress="90"]::after {
+    width: 90%;
+}
+
+.skill-progress[data-progress="70"]::after {
+    width: 70%;
+}
+
+.internship-info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.internship-info p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
